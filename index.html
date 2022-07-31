@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Gear&Adventure</title>
+  </head>
+  <body>
+    <!-- Header section with brand on one side and menu / navigation on the other -->
+    <header>
+      <div class="brand-wrapper">
+        <div class="border">
+          <h1 class="brand">Gear<span>&</span>Adventure</h1>
+        </div>
+        <img src="img/poles.png" alt="" class="logo-img" />
+      </div>
+      <nav>
+        <ul class="menu-nav">
+          <li class="menu-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="menu-item"><a href="#" class="nav-link">Gear</a></li>
+          <li class="menu-item dropdown">
+            <div class="dropdown-action">
+              <span>Explore</span>
+              <i class="fa-solid fa-chevron-down"></i>
+              <i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="#" class="dropdown-link">Deserts</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#" class="dropdown-link">Mountains</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#" class="dropdown-link">Forests</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main text section with button to reveal -->
+    <div id="about">
+      <button class="btn-reveal">Click<br />here</button>
+      <div class="text-wrapper">
+        <h3>About us</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam esse
+          ut neque pariatur! Voluptatibus fugit, molestiae nesciunt et
+          exercitationem ipsum quas labore illum officiis quasi debitis
+          laboriosam incidunt quis. Doloribus id, rerum voluptatibus dolores
+          voluptatum earum iure delectus, dolor pariatur eveniet esse mollitia
+          quia, aspernatur maiores corrupti voluptates! Voluptates, aut!
+        </p>
+      </div>
+    </div>
+    <!-- Social links -->
+    <div id="social">
+      <a href="#" class="social-link">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="#" class="social-link">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+      <a href="#" class="social-link">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="#" class="social-link">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+    <!-- Bottom image section -->
+    <div class="image-wrapper">
+      <div class="image-group">
+        <div class="box"></div>
+        <img src="img/backpack.png" alt="" class="item-img" />
+      </div>
+      <div class="image-group">
+        <div class="box"></div>
+        <img src="img/boot.png" alt="" class="item-img" />
+      </div>
+      <div class="image-group">
+        <div class="box"></div>
+        <img src="img/tent.png" alt="" class="item-img" />
+      </div>
+      <div class="image-group">
+        <div class="box"></div>
+        <img src="img/ice_axe.png" alt="" class="item-img" />
+      </div>
+    </div>
+    <div class="explore">
+      <img src="img/explore.png" alt="" />
+    </div>
+    <!-- Footer -->
+    <footer>&copy;Gear&Adventure 2022</footer>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
